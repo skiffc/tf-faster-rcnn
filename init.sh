@@ -1,5 +1,5 @@
 yes | sudo apt-get install python-pip
-sudo pip install tensorflow cython opencv-python easydict matplotlib
+sudo pip install tensorflow cython opencv-python easydict matplotlib scipy pyyaml
 cd tf-faster-rcnn/lib
 make
 cd ..
